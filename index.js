@@ -6,6 +6,7 @@ function displayJoke(response) {
   new Typewriter("#joke", {
     strings: response.data.answer,
     autoStart: true,
+    delay: 70,
   });
 }
 
